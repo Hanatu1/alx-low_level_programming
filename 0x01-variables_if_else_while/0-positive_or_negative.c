@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * Return: Always success 
+ * Return: Always 0. 
  */
 int main(void)
 {
@@ -22,4 +22,4 @@ int main(void)
 		printf("%d is zero\n", n);
 
 	return (0);
-}
+i}
