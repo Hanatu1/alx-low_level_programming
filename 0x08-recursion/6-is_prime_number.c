@@ -9,11 +9,11 @@
 
 int prime_check(int s, int c)
 {
-		if (s * s > c)
-					return (1);
-			if (c % s == 0)
-						return (0);
-				return (prime_check(s + 1, c));
+	if (s * s > c)
+		return (1);
+	if (c % s == 0)
+		return (0);
+	return (prime_check(s + 1, c));
 }
 /**
  * is_prime_number - function that checks if n is a prime number
@@ -23,7 +23,7 @@ int prime_check(int s, int c)
 
 int is_prime_number(int n)
 {
-		if (n <= 1)
-					return (0);
-			return (prime_check(2, n));
+	if (n <= 1)
+		return (0);
+	return (prime_check(2, n));
 }
